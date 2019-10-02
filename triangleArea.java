@@ -13,5 +13,6 @@ public class triangleArea {
         double area = (height * base) / 2;
         System.out.printf("\nThe area of a triangle with a height and base of %,.1f and %,.1f is %,.1f.\n\n", height, base, area);
 
+        s.close();
     }
 }
